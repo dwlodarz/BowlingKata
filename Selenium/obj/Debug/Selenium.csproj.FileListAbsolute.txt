@@ -1,0 +1,14 @@
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\chromedriver.exe
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\Selenium.dll.config
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\Selenium.dll
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\Selenium.pdb
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\nunit.core.interfaces.dll
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\nunit.framework.dll
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\TechTalk.SpecFlow.dll
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\WebDriver.dll
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\WebDriver.Support.dll
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\nunit.framework.xml
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\WebDriver.xml
+C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\WebDriver.Support.xml
+C:\DEV\_Private\bowlingKata\Selenium\obj\Debug\Selenium.dll
+C:\DEV\_Private\bowlingKata\Selenium\obj\Debug\Selenium.pdb
