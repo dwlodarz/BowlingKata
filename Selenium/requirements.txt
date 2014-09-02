@@ -1,0 +1,8 @@
+﻿1. application must be divided into modules
+2. application must contain following entries in Environment module: Log View, Environment Management, Environment Configuration, Service Discovery, Environment Setup
+3. application must show all stacks that are part of environment
+4. application must list configuration of all services
+5. application must list configuration for particular version of a service
+6. application must have the possibility to perform CRUD on configuration key for global scope
+7. application must have the possibility to perform CRUD on entry for service and version scopes
+8. all interactions with app must be reflected within right AWS resource
