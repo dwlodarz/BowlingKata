@@ -43,6 +43,10 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>NSDemoApp.feature.cs</LastGenOutput>
     </None>
+    <None Include="TestSuites\SpecFlowFeature1.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="nunit.core.interfaces">
@@ -73,12 +77,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>NSDemoApp.feature</DependentUpon>
     </Compile>
+    <Compile Include="TestSuites\SpecFlowFeature1.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\packages\WebDriver.ChromeDriver.win32.2.8.0.0\content\chromedriver.exe">
       <Link>chromedriver.exe</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />

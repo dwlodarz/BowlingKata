@@ -12,3 +12,4 @@ C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\WebDriver.xml
 C:\DEV\_Private\bowlingKata\Selenium\bin\Debug\WebDriver.Support.xml
 C:\DEV\_Private\bowlingKata\Selenium\obj\Debug\Selenium.dll
 C:\DEV\_Private\bowlingKata\Selenium\obj\Debug\Selenium.pdb
+C:\DEV\_Private\bowlingKata\Selenium\obj\Debug\Selenium.csprojResolveAssemblyReference.cache

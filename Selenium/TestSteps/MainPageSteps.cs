@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
@@ -21,24 +22,31 @@ namespace Selenium.TestSteps
             mainPage.Open(url);
         }
 
-        [When("I go to Environment module")]
-        public void WhenIGoToEnvironmentModule()
+        [When("I go to (.*) module")]
+        public void WhenIGoToEnvironmentModule(string moduleName)
         {
-
-            ScenarioContext.Current.Pending();
+            mainPage.GoToModule(moduleName);            
         }
 
-        [When(@"I open Environment Management")]
-        public void WhenIOpenEnvironmentManagement()
+        [When(@"I open (.*)")]
+        public void WhenIOpenEnvironmentManagement(string moduleName)
         {
-            ScenarioContext.Current.Pending();
+            mainPage.GoToSubModule(moduleName);
+            mainPage.WaitForEnvironmentListToLoad();
         }
 
 
         [Then("list of running environments will be displayed")]
         public void ThenListOfRunnintEnvironmentsWillBeDisplayed()
         {
-            ScenarioContext.Current.Pending();
+            int listCount  = mainPage.GetListOfEnvironments().Count;
+            NUnit.Framework.Assert.AreNotEqual(0, listCount);
+        }
+
+        [Then(@"(.*) is present")]
+        public void ThenLogViewIsPresent(string subModuleName)
+        {
+            Assert.True(true);
         }
     }
 }
